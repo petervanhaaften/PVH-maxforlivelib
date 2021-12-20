@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "p.storage_eg">
+	<slot number = "1" name = "preset names can be as long as you want">
+		<pattr name = "egnum" value = "234" />
+		<pattr name = "egmenu" value = "0" />
+		<pattr name = "egslider" value = "-0.319372 -0.361257 -0.246073 -0.141361 -0.445026 0.193717 -0.445026 0.13089 0.633508 0.675393 -0.497382 0.21466 0.204188 -0.549738 0.382199 0.026178 0.497382 -0.633508 -0.172775 -0.246073 0.602094 0.623037 -0.717277 0.528796 0.664921 -0.706806 0.65445 0.65445 -0.633508 0.643979 -0.664921 0.13089 0.256545 -0.706806 -0.507853 0.528796 0.539267 -0.267016 0.089005 0.099476 0.277487 0.434555" />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "2" name = "store presets with default names:">
+		<pattr name = "egnum" value = "94" />
+		<pattr name = "egmenu" value = "1" />
+		<pattr name = "egslider" value = "-0.53271 1. -0.028037 1. 0.345794 1. 0.831776 1. 0.831776 1. 0.64486 1. 0.775701 1. 0.850467 1. 0.850467 1. 0.757009 1. 0.813084 1. 0.831776 1. 0.813084 1. 0.831776 1. 0.738318 1. 0.757009 1. 0.682243 1. 0.457944 1. 0.214953 1. -0.158879 1. -0.64486 1." />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "2" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "2" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "3" name = "p.storage">
+		<pattr name = "egnum" value = "43" />
+		<pattr name = "egmenu" value = "1" />
+		<pattr name = "egslider" value = "0.759162 0.759162 0.759162 -1. -1. -1. -1. 0.602094 0.602094 0.602094 0.602094 -1. -1. -1. 0.350785 0.350785 0.340314 0.340314 -1. -1. -1. 0.099476 0.078534 0.078534 0.099476 -1. -1. -1. -0.267016 -0.277487 -0.277487 -0.277487 -1. -1. -1. -1. -0.445026 -0.465969 -0.486911 -1. 0.382199 0.382199" />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "4" name = "p.storage">
+		<pattr name = "egnum" value = "32" />
+		<pattr name = "egmenu" value = "2" />
+		<pattr name = "egslider" value = "0.874346 0.04712 0.811518 0.769634 -0.277487 0.675393 0.089005 0.570681 0.528796 0.193717 0.413613 0.361257 -0.005236 0.21466 0.13089 -0.026178 -0.005236 -0.036649 -0.172775 -0.246073 -0.026178 -0.486911 -0.089005 -0.769634 -0.832461 0.005236 -0.497382 -0.361257 -0.193717 -0.068063 -0.246073 0.13089 0.256545 0.329843 -0.13089 0.528796 0.602094 0.65445 -0.455497 0.811518 0.162304 0.91623" />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "5" name = "or integers:">
+		<pattr name = "egnum" value = "-132171" />
+		<pattr name = "egmenu" value = "1" />
+		<pattr name = "egslider" value = "0.162304 0.256545 0.434555 0.528796 0.623037 -0.424084 -0.424084 0.82199 0.308901 0.926702 0.947644 0.947644 0.926702 0.863874 0.256545 0.706806 0.65445 -0.204188 -0.193717 0.413613 0.246073 0.036649 -0.120419 -0.04712 -0.73822 0.225131 0.287958 0.319372 0.39267 -0.141361 0.424084 0.413613 0.403141 0.361257 -0.204188 0.256545 0.172775 -0.643979 -0.633508 -0.151832 -0.277487 -0.486911" />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "6" name = "6">
+		<pattr name = "egnum" value = "8767676" />
+		<pattr name = "egmenu" value = "1" />
+		<pattr name = "egslider" value = "0.874346 0.853403 0.811518 0.769634 0.717277 0.675393 0.633508 0.570681 0.528796 0.486911 0.413613 0.361257 0.277487 0.21466 0.13089 0.04712 -0.005236 -0.099476 -0.172775 -0.246073 -0.361257 -0.486911 -0.623037 -0.769634 -0.832461 -0.65445 -0.497382 -0.361257 -0.193717 -0.068063 0.089005 0.13089 0.256545 0.329843 0.455497 0.528796 0.602094 0.65445 0.748691 0.811518 0.853403 0.91623" />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "7" name = "with numbering:">
+		<pattr name = "egnum" value = "32" />
+		<pattr name = "egmenu" value = "2" />
+		<pattr name = "egslider" value = "-0.591623 -0.382199 -0.256545 -0.141361 -0.036649 0.026178 0.089005 0.13089 0.151832 0.172775 0.204188 0.21466 0.204188 0.172775 0.078534 0.026178 -0.036649 -0.099476 -0.172775 -0.246073 -0.361257 -0.486911 -0.623037 -0.769634 -0.832461 -0.706806 -0.560209 -0.361257 -0.193717 -0.068063 0.089005 0.13089 0.256545 0.329843 0.455497 0.528796 0.539267 0.549738 0.539267 0.518325 0.47644 0.434555" />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "8" name = "preset2_008">
+		<pattr name = "egnum" value = "94" />
+		<pattr name = "egmenu" value = "1" />
+		<pattr name = "egslider" value = "-1. -1. -1. -1. -1. -1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -1. -1. -1. -1. -1. -1. -1. -1. -1." />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "9" name = "p.storage_009">
+		<pattr name = "egnum" value = "85" />
+		<pattr name = "egmenu" value = "0" />
+		<pattr name = "egslider" value = "0.162304 0.256545 0.434555 0.528796 0.623037 0.706806 0.769634 0.82199 0.308901 0.926702 0.947644 0.947644 0.926702 0.863874 0.256545 0.706806 0.65445 0.612565 0.528796 0.413613 0.246073 0.036649 -0.120419 0.026178 0.109948 0.225131 0.287958 0.319372 0.39267 -0.141361 0.424084 0.413613 0.403141 0.361257 -0.204188 0.256545 0.172775 0.089005 -0.036649 -0.151832 -0.277487 -0.486911" />
+		<patcher name = "sub_patch2">
+			<pattr name = "another_pattrstorage" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch1">
+			<pattr name = "p.storage_eg[1]" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[2]">
+			<pattr name = "another_example" value = "0" />
+		</patcher>
+		<patcher name = "sub_patch2[3]">
+			<pattr name = "myBookmarks" value = "" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

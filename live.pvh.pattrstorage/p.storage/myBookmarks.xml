@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "myBookmarks">
+	<slot number = "1" name = "p.storage online documentation">
+		<pattr name = "myURL" value = "http://www.wiki.pelado.co.uk/p.storage/p.storage" />
+	</slot>
+	<slot number = "2" lock = "1" name = "pelado">
+		<pattr name = "myURL" value = "http://www.pelado.co.uk/" />
+	</slot>
+	<slot number = "3" lock = "1" name = "Cycling '74 || New Tools For Media">
+		<pattr name = "myURL" value = "http://www.cycling74.com/" />
+	</slot>
+	<slot number = "4" name = "Max Objects Database">
+		<pattr name = "myURL" value = "http://maxobjects.com/?request=pattr&amp;operateur=AND&amp;id_plateforme=0&amp;id_format=0&amp;Submit=OK" />
+	</slot>
+</pattrstorage>
+

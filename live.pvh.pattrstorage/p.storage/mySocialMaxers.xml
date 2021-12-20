@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "myBookmarks">
+	<slot number = "1" name = "max msp jitter on Delicious">
+		<pattr name = "myURL" value = "http://delicious.com/search?context=all&amp;p=max%20msp%20jitter&amp;lc=1" />
+	</slot>
+	<slot number = "2" name = "YouTube ">
+		<pattr name = "myURL" value = "http://uk.youtube.com/results?search_query=max+msp+jitter&amp;as=1&amp;and_queries=max+msp+jitter&amp;exact_query=&amp;or_queries=&amp;negative_queries=&amp;geo_name=&amp;geo_latlong=&amp;search_duration=&amp;search_hl=&amp;search_category_type=specific&amp;search_category=27&amp;search_category=24&amp;search_category=1&amp;search_category=20&amp;search_category=26&amp;search_category=10&amp;search_category=22&amp;search_category=28&amp;search_category=19&amp;search_sort=&amp;uploaded=m" />
+	</slot>
+	<slot number = "3" name = "Flickr: Search">
+		<pattr name = "myURL" value = "http://flickr.com/search/?q=max+msp+jitter&amp;s=rec" />
+	</slot>
+	<slot number = "4" name = "Flickr: Search for a group">
+		<pattr name = "myURL" value = "http://flickr.com/search/groups/?q=max%20msp%20jitter" />
+	</slot>
+	<slot number = "5" name = "Vimeo">
+		<pattr name = "myURL" value = "http://vimeo.com/videos/search:max+msp+jitter/sort:newest/format:thumbnail" />
+	</slot>
+	<slot number = "6" name = "Google Search">
+		<pattr name = "myURL" value = "http://www.google.es/search?hl=en&amp;as_q=max+msp+jitter&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;num=10&amp;lr=&amp;as_filetype=&amp;ft=i&amp;as_sitesearch=&amp;as_qdr=w&amp;as_rights=&amp;as_occt=any&amp;cr=&amp;as_nlo=&amp;as_nhi=&amp;safe=images" />
+	</slot>
+	<slot number = "7" name = "C++ Externals for Max/MSP">
+		<pattr name = "myURL" value = "http://www.mat.ucsb.edu/~wakefield/maxcpp.htm" />
+	</slot>
+	<slot number = "8" name = "electric stimulus to face">
+		<pattr name = "myURL" value = "http://www.youtube.com/watch?v=YxdlYFCp5Ic" />
+	</slot>
+	<slot number = "9" name = "reactable software">
+		<pattr name = "myURL" value = "http://reactable.iua.upf.edu/?software" />
+	</slot>
+	<slot number = "10" name = "parasitaere kapazitaeten ">
+		<pattr name = "myURL" value = "http://www.parasitaere-kapazitaeten.net/" />
+	</slot>
+	<slot number = "11" name = "Ali Momeni">
+		<pattr name = "myURL" value = "http://alimomeni.net/" />
+	</slot>
+	<slot number = "12" name = "martinrobinson">
+		<pattr name = "myURL" value = "http://miajo.co.uk/?MaxMSP" />
+	</slot>
+	<slot number = "13" name = "Chiptune patches and externals">
+		<pattr name = "myURL" value = "http://www.mmonoplayer.com/mspexternals.php" />
+	</slot>
+	<slot number = "14" name = "cv.jit  - download">
+		<pattr name = "myURL" value = "http://www.iamas.ac.jp/~jovan02/cv/download.html" />
+	</slot>
+	<slot number = "15" name = "YouTube - Max ToolBox">
+		<pattr name = "myURL" value = "http://uk.youtube.com/watch?v=fcqF9hDNoJk" />
+	</slot>
+	<slot number = "16" name = "retinality - xray.jit">
+		<pattr name = "myURL" value = "http://www.mat.ucsb.edu/~whsmith/xray.html" />
+	</slot>
+	<slot number = "17" name = "jasch_objects">
+		<pattr name = "myURL" value = "http://sourceforge.net/projects/jaschobjects/" />
+	</slot>
+	<slot number = "18" name = "Emmanuel Jourdan">
+		<pattr name = "myURL" value = "http://www.e--j.com/sphpblog/" />
+	</slot>
+</pattrstorage>
+

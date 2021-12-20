@@ -1,0 +1,77 @@
+{
+	"pattrstorage" : 	{
+		"name" : "my_parameters[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "pat1",
+				"data" : 				{
+					"origin[1]" : [ "888" ],
+					"textedit" : [ "666" ],
+					"textedit[1]" : [ "54545" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "patt2",
+				"data" : 				{
+					"origin[1]" : [ "111" ],
+					"textedit" : [ "222" ],
+					"textedit[1]" : [ "333" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "patt3",
+				"data" : 				{
+					"origin[1]" : [ "000" ],
+					"textedit" : [ "111" ],
+					"textedit[1]" : [ "222" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "patt4",
+				"data" : 				{
+					"origin[1]" : [ "999" ],
+					"textedit" : [ "999" ],
+					"textedit[1]" : [ "9999" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

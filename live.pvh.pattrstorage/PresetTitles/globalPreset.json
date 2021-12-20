@@ -1,0 +1,29 @@
+{
+	"pattrstorage" : 	{
+		"name" : "globalPreset",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"number" : [ 0.0 ],
+					"number[1]" : [ 0.0 ],
+					"slider" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"number" : [ 0.0 ],
+					"number[1]" : [ 0.0 ],
+					"slider" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,191 @@
+{
+	"pattrstorage" : 	{
+		"name" : "my_parameters[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "one",
+				"data" : 				{
+					"origin[1]" : [ "111" ],
+					"textedit" : [ "222" ],
+					"textedit[1]" : [ "333" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::origin[1]" : [  ],
+					"live.pvh.johnson1.view::textedit" : [  ],
+					"live.pvh.johnson1.view::textedit[1]" : [  ],
+					"live.pvh.johnson1.view::textedit[2]" : [  ],
+					"live.pvh.johnson1.view::textedit[3]" : [  ],
+					"live.pvh.johnson1.view::textedit[4]" : [  ],
+					"live.pvh.johnson1.view::textedit[5]" : [  ],
+					"live.pvh.johnson1.view::textedit[6]" : [  ],
+					"live.pvh.johnson1.view::textedit[7]" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "two",
+				"data" : 				{
+					"origin[1]" : [ "22" ],
+					"textedit" : [ "55" ],
+					"textedit[1]" : [ "33" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::origin[1]" : [  ],
+					"live.pvh.johnson1.view::textedit" : [  ],
+					"live.pvh.johnson1.view::textedit[1]" : [  ],
+					"live.pvh.johnson1.view::textedit[2]" : [  ],
+					"live.pvh.johnson1.view::textedit[3]" : [  ],
+					"live.pvh.johnson1.view::textedit[4]" : [  ],
+					"live.pvh.johnson1.view::textedit[5]" : [  ],
+					"live.pvh.johnson1.view::textedit[6]" : [  ],
+					"live.pvh.johnson1.view::textedit[7]" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "three",
+				"data" : 				{
+					"origin[1]" : [ "8887" ],
+					"textedit" : [ "775" ],
+					"textedit[1]" : [ "88" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::origin[1]" : [  ],
+					"live.pvh.johnson1.view::textedit" : [  ],
+					"live.pvh.johnson1.view::textedit[1]" : [  ],
+					"live.pvh.johnson1.view::textedit[2]" : [  ],
+					"live.pvh.johnson1.view::textedit[3]" : [  ],
+					"live.pvh.johnson1.view::textedit[4]" : [  ],
+					"live.pvh.johnson1.view::textedit[5]" : [  ],
+					"live.pvh.johnson1.view::textedit[6]" : [  ],
+					"live.pvh.johnson1.view::textedit[7]" : [  ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "four",
+				"data" : 				{
+					"origin[1]" : [ "5346" ],
+					"textedit" : [ "3645" ],
+					"textedit[1]" : [ "356" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::origin[1]" : [  ],
+					"live.pvh.johnson1.view::textedit" : [  ],
+					"live.pvh.johnson1.view::textedit[1]" : [  ],
+					"live.pvh.johnson1.view::textedit[2]" : [  ],
+					"live.pvh.johnson1.view::textedit[3]" : [  ],
+					"live.pvh.johnson1.view::textedit[4]" : [  ],
+					"live.pvh.johnson1.view::textedit[5]" : [  ],
+					"live.pvh.johnson1.view::textedit[6]" : [  ],
+					"live.pvh.johnson1.view::textedit[7]" : [  ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"name" : "six",
+				"data" : 				{
+					"origin[1]" : [ "09090" ],
+					"textedit" : [ "909090" ],
+					"textedit[1]" : [ "909090" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::origin[1]" : [  ],
+					"live.pvh.johnson1.view::textedit" : [  ],
+					"live.pvh.johnson1.view::textedit[1]" : [  ],
+					"live.pvh.johnson1.view::textedit[2]" : [  ],
+					"live.pvh.johnson1.view::textedit[3]" : [  ],
+					"live.pvh.johnson1.view::textedit[4]" : [  ],
+					"live.pvh.johnson1.view::textedit[5]" : [  ],
+					"live.pvh.johnson1.view::textedit[6]" : [  ],
+					"live.pvh.johnson1.view::textedit[7]" : [  ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"name" : "five",
+				"data" : 				{
+					"origin[1]" : [ "231" ],
+					"textedit" : [ "123" ],
+					"textedit[1]" : [ "123" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::origin[1]" : [  ],
+					"live.pvh.johnson1.view::textedit" : [  ],
+					"live.pvh.johnson1.view::textedit[1]" : [  ],
+					"live.pvh.johnson1.view::textedit[2]" : [  ],
+					"live.pvh.johnson1.view::textedit[3]" : [  ],
+					"live.pvh.johnson1.view::textedit[4]" : [  ],
+					"live.pvh.johnson1.view::textedit[5]" : [  ],
+					"live.pvh.johnson1.view::textedit[6]" : [  ],
+					"live.pvh.johnson1.view::textedit[7]" : [  ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"name" : "seven",
+				"data" : 				{
+					"origin[1]" : [ "890890890" ],
+					"textedit" : [ "890" ],
+					"textedit[1]" : [ "890" ],
+					"textedit[2]" : [ "<empty>" ],
+					"textedit[3]" : [ "<empty>" ],
+					"textedit[4]" : [ "<empty>" ],
+					"textedit[5]" : [ "<empty>" ],
+					"textedit[6]" : [ "<empty>" ],
+					"textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::origin[1]" : [  ],
+					"live.pvh.johnson1.view::textedit" : [  ],
+					"live.pvh.johnson1.view::textedit[1]" : [  ],
+					"live.pvh.johnson1.view::textedit[2]" : [  ],
+					"live.pvh.johnson1.view::textedit[3]" : [  ],
+					"live.pvh.johnson1.view::textedit[4]" : [  ],
+					"live.pvh.johnson1.view::textedit[5]" : [  ],
+					"live.pvh.johnson1.view::textedit[6]" : [  ],
+					"live.pvh.johnson1.view::textedit[7]" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

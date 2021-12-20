@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "testing1",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "one",
+				"data" : 				{
+					"number" : [ 19.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "numtwo",
+				"data" : 				{
+					"number" : [ -54.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
