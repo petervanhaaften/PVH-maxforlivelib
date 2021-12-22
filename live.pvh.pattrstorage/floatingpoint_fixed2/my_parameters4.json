@@ -4,119 +4,104 @@
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
-				"name" : "one",
+				"name" : "tset",
 				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [  ],
-					"live.pvh.johnson1.view::textedit" : [  ],
-					"live.pvh.johnson1.view::textedit[1]" : [  ],
-					"live.pvh.johnson1.view::textedit[2]" : [  ],
-					"live.pvh.johnson1.view::textedit[3]" : [  ],
-					"live.pvh.johnson1.view::textedit[4]" : [  ],
-					"live.pvh.johnson1.view::textedit[5]" : [  ],
-					"live.pvh.johnson1.view::textedit[6]" : [  ],
-					"live.pvh.johnson1.view::textedit[7]" : [  ]
+					"live.pvh.johnson1.view::origin[1]" : [ "10011" ],
+					"live.pvh.johnson1.view::textedit" : [ "00110" ],
+					"live.pvh.johnson1.view::textedit[1]" : [ "111" ],
+					"live.pvh.johnson1.view::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::origin[1]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[1]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[7]" : [ "<empty>" ]
 				}
 
 			}
 ,
 			"2" : 			{
 				"id" : 2,
-				"name" : "two",
+				"name" : "adsads",
 				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [  ],
-					"live.pvh.johnson1.view::textedit" : [  ],
-					"live.pvh.johnson1.view::textedit[1]" : [  ],
-					"live.pvh.johnson1.view::textedit[2]" : [  ],
-					"live.pvh.johnson1.view::textedit[3]" : [  ],
-					"live.pvh.johnson1.view::textedit[4]" : [  ],
-					"live.pvh.johnson1.view::textedit[5]" : [  ],
-					"live.pvh.johnson1.view::textedit[6]" : [  ],
-					"live.pvh.johnson1.view::textedit[7]" : [  ]
+					"live.pvh.johnson1.view::origin[1]" : [ "222" ],
+					"live.pvh.johnson1.view::textedit" : [ "333" ],
+					"live.pvh.johnson1.view::textedit[1]" : [ "444" ],
+					"live.pvh.johnson1.view::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::origin[1]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[1]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[7]" : [ "<empty>" ]
 				}
 
 			}
 ,
 			"3" : 			{
 				"id" : 3,
-				"name" : "three",
+				"name" : "ads",
 				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [  ],
-					"live.pvh.johnson1.view::textedit" : [  ],
-					"live.pvh.johnson1.view::textedit[1]" : [  ],
-					"live.pvh.johnson1.view::textedit[2]" : [  ],
-					"live.pvh.johnson1.view::textedit[3]" : [  ],
-					"live.pvh.johnson1.view::textedit[4]" : [  ],
-					"live.pvh.johnson1.view::textedit[5]" : [  ],
-					"live.pvh.johnson1.view::textedit[6]" : [  ],
-					"live.pvh.johnson1.view::textedit[7]" : [  ]
+					"live.pvh.johnson1.view::origin[1]" : [ "222" ],
+					"live.pvh.johnson1.view::textedit" : [ "333" ],
+					"live.pvh.johnson1.view::textedit[1]" : [ "444" ],
+					"live.pvh.johnson1.view::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::origin[1]" : [ "123123" ],
+					"live.pvh.johnson1.view[1]::textedit" : [ "123123" ],
+					"live.pvh.johnson1.view[1]::textedit[1]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[7]" : [ "<empty>" ]
 				}
 
 			}
 ,
 			"4" : 			{
 				"id" : 4,
-				"name" : "four",
+				"name" : "erer",
 				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [  ],
-					"live.pvh.johnson1.view::textedit" : [  ],
-					"live.pvh.johnson1.view::textedit[1]" : [  ],
-					"live.pvh.johnson1.view::textedit[2]" : [  ],
-					"live.pvh.johnson1.view::textedit[3]" : [  ],
-					"live.pvh.johnson1.view::textedit[4]" : [  ],
-					"live.pvh.johnson1.view::textedit[5]" : [  ],
-					"live.pvh.johnson1.view::textedit[6]" : [  ],
-					"live.pvh.johnson1.view::textedit[7]" : [  ]
-				}
-
-			}
-,
-			"5" : 			{
-				"id" : 5,
-				"name" : "six",
-				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [  ],
-					"live.pvh.johnson1.view::textedit" : [  ],
-					"live.pvh.johnson1.view::textedit[1]" : [  ],
-					"live.pvh.johnson1.view::textedit[2]" : [  ],
-					"live.pvh.johnson1.view::textedit[3]" : [  ],
-					"live.pvh.johnson1.view::textedit[4]" : [  ],
-					"live.pvh.johnson1.view::textedit[5]" : [  ],
-					"live.pvh.johnson1.view::textedit[6]" : [  ],
-					"live.pvh.johnson1.view::textedit[7]" : [  ]
-				}
-
-			}
-,
-			"6" : 			{
-				"id" : 6,
-				"name" : "five",
-				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [  ],
-					"live.pvh.johnson1.view::textedit" : [  ],
-					"live.pvh.johnson1.view::textedit[1]" : [  ],
-					"live.pvh.johnson1.view::textedit[2]" : [  ],
-					"live.pvh.johnson1.view::textedit[3]" : [  ],
-					"live.pvh.johnson1.view::textedit[4]" : [  ],
-					"live.pvh.johnson1.view::textedit[5]" : [  ],
-					"live.pvh.johnson1.view::textedit[6]" : [  ],
-					"live.pvh.johnson1.view::textedit[7]" : [  ]
-				}
-
-			}
-,
-			"7" : 			{
-				"id" : 7,
-				"name" : "seven",
-				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [  ],
-					"live.pvh.johnson1.view::textedit" : [  ],
-					"live.pvh.johnson1.view::textedit[1]" : [  ],
-					"live.pvh.johnson1.view::textedit[2]" : [  ],
-					"live.pvh.johnson1.view::textedit[3]" : [  ],
-					"live.pvh.johnson1.view::textedit[4]" : [  ],
-					"live.pvh.johnson1.view::textedit[5]" : [  ],
-					"live.pvh.johnson1.view::textedit[6]" : [  ],
-					"live.pvh.johnson1.view::textedit[7]" : [  ]
+					"live.pvh.johnson1.view::origin[1]" : [ "222" ],
+					"live.pvh.johnson1.view::textedit" : [ "333" ],
+					"live.pvh.johnson1.view::textedit[1]" : [ "444" ],
+					"live.pvh.johnson1.view::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view::textedit[7]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::origin[1]" : [ "33" ],
+					"live.pvh.johnson1.view[1]::textedit" : [ "22" ],
+					"live.pvh.johnson1.view[1]::textedit[1]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[2]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[3]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[4]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[5]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[6]" : [ "<empty>" ],
+					"live.pvh.johnson1.view[1]::textedit[7]" : [ "<empty>" ]
 				}
 
 			}
