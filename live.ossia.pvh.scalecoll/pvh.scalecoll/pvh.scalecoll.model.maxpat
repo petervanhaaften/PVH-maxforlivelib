@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 657.0, 101.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -36,7 +37,33 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-17",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 164.0, 161.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 79.0, 157.0, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
@@ -44,9 +71,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 46.5, 30.0, 30.0 ],
-					"style" : ""
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 25.0, 46.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -59,8 +85,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 46.5, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 79.0, 46.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -74,7 +99,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 451.0, 47.5, 108.0, 167.0 ],
-					"style" : "",
 					"text" : "1. major\n2. harmonic minor\n3. phrygian major\n4. locrian major\n5. natural minor\n6. dorian mode\n7. mixolydian\n8. phrygian\n9. lydian\n10. locrian\n11. gypsy\n12. whole tone"
 				}
 
@@ -90,7 +114,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 98.0, 295.0, 154.0, 21.0 ],
-					"style" : "",
 					"text" : "j.return output @type decimal"
 				}
 
@@ -103,8 +126,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 327.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 25.0, 327.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -116,8 +138,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 401.0, 291.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 401.0, 291.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -130,8 +151,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 401.0, 199.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 401.0, 199.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -144,7 +164,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 25.0, 96.0, 190.0, 22.0 ],
-					"style" : "",
 					"text" : "j.parameter degree @type integer"
 				}
 
@@ -157,8 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 79.0, 141.0, 181.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 79.0, 130.0, 181.0, 22.0 ],
 					"text" : "j.parameter scale @type integer"
 				}
 
@@ -170,7 +188,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 100.0, 242.0, 150.0, 20.0 ],
-					"style" : "",
 					"text" : "SCALE player"
 				}
 
@@ -184,8 +201,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 270.0, 46.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 25.0, 270.0, 46.0, 22.0 ]
 				}
 
 			}
@@ -196,7 +212,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.0, 181.0, 150.0, 20.0 ],
-					"style" : "",
 					"text" : "degree num 1-7"
 				}
 
@@ -209,8 +224,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 180.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 25.0, 180.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -221,7 +235,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 127.0, 212.0, 150.0, 20.0 ],
-					"style" : "",
 					"text" : "scale num 1-12"
 				}
 
@@ -236,8 +249,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 79.0, 212.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 79.0, 212.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -251,13 +263,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 5,
+							"major" : 8,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 896.0, 459.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -285,6 +298,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
@@ -297,13 +311,14 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 7,
-											"minor" : 3,
-											"revision" : 5,
+											"major" : 8,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
+										"classnamespace" : "box",
 										"rect" : [ 337.0, 131.0, 285.0, 574.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -331,6 +346,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-4",
@@ -339,7 +355,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
 													"patching_rect" : [ 27.5, 16.0, 60.0, 22.0 ],
-													"style" : "",
 													"text" : "loadbang"
 												}
 
@@ -352,7 +367,6 @@
 													"numoutlets" : 15,
 													"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang" ],
 													"patching_rect" : [ 27.5, 48.0, 166.0, 22.0 ],
-													"style" : "",
 													"text" : "t b b b b b b b b b b b b b b b"
 												}
 
@@ -365,7 +379,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 419.5, 173.0, 22.0 ],
-													"style" : "",
 													"text" : "15 0 3 5 7 10 minor pentatonic"
 												}
 
@@ -378,7 +391,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 395.5, 166.0, 22.0 ],
-													"style" : "",
 													"text" : "14 0 2 4 7 8 major pentatonic"
 												}
 
@@ -391,7 +403,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 371.5, 173.0, 22.0 ],
-													"style" : "",
 													"text" : "13 0 1 4 5 7 8 9 11 ahava raba"
 												}
 
@@ -404,7 +415,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 347.5, 169.0, 22.0 ],
-													"style" : "",
 													"text" : "12 0 2 4 6 8 10 12 whole tone"
 												}
 
@@ -417,7 +427,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 323.5, 150.0, 22.0 ],
-													"style" : "",
 													"text" : "11 0 1 4 5 7 8 11 12 gypsy"
 												}
 
@@ -430,7 +439,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 299.5, 156.0, 22.0 ],
-													"style" : "",
 													"text" : "10 0 1 3 5 6 8 10 12 locrian"
 												}
 
@@ -443,7 +451,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 275.5, 144.0, 22.0 ],
-													"style" : "",
 													"text" : "9 0 2 4 6 7 9 11 12 lydian"
 												}
 
@@ -456,7 +463,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 251.5, 160.0, 22.0 ],
-													"style" : "",
 													"text" : "8 0 1 3 5 7 8 10 12 phrygian"
 												}
 
@@ -469,7 +475,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 227.5, 171.0, 22.0 ],
-													"style" : "",
 													"text" : "7 0 2 4 5 7 9 10 12 mixolydian"
 												}
 
@@ -482,7 +487,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 202.5, 181.0, 22.0 ],
-													"style" : "",
 													"text" : "6 0 2 3 5 7 9 10 12 dorian mode"
 												}
 
@@ -495,7 +499,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 178.5, 184.0, 22.0 ],
-													"style" : "",
 													"text" : "5 0 2 3 5 7 8 10 12 natural minor"
 												}
 
@@ -508,7 +511,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 154.5, 183.0, 22.0 ],
-													"style" : "",
 													"text" : "4 0 2 4 5 6 8 10 12 locrian major"
 												}
 
@@ -521,7 +523,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 130.5, 200.0, 22.0 ],
-													"style" : "",
 													"text" : "3 0 1 4 5 7 8 10 12 phrygian major;\r"
 												}
 
@@ -534,7 +535,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 106.5, 196.0, 22.0 ],
-													"style" : "",
 													"text" : "2 0 2 4 5 8 9 11 12 harmonic major"
 												}
 
@@ -547,7 +547,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 27.5, 83.0, 143.0, 22.0 ],
-													"style" : "",
 													"text" : "1 0 2 4 5 7 9 11 12 major"
 												}
 
@@ -560,8 +559,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 27.5, 528.5, 30.0, 30.0 ],
-													"style" : ""
+													"patching_rect" : [ 27.5, 528.5, 30.0, 30.0 ]
 												}
 
 											}
@@ -791,11 +789,9 @@
 										"description" : "",
 										"digest" : "",
 										"globalpatchername" : "",
-										"style" : "",
 										"tags" : ""
 									}
 ,
-									"style" : "",
 									"text" : "p scales import"
 								}
 
@@ -811,10 +807,10 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 29.5, 218.0, 73.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0
+										"embed" : 0,
+										"precision" : 6
 									}
 ,
-									"style" : "",
 									"text" : "coll scales2"
 								}
 
@@ -829,8 +825,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.5, 38.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 29.5, 38.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -841,7 +836,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 139.0, 87.0, 150.0, 20.0 ],
-									"style" : "",
 									"text" : "degree num 1-7"
 								}
 
@@ -854,8 +848,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 87.0, 87.0, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 87.0, 87.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -866,7 +859,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 132.0, 116.0, 150.0, 20.0 ],
-									"style" : "",
 									"text" : "scale num 1-12"
 								}
 
@@ -881,7 +873,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 510.5, 135.5, 108.0, 167.0 ],
-									"style" : "",
 									"text" : "1. major\n2. harmonic minor\n3. phrygian major\n4. locrian major\n5. natural minor\n6. dorian mode\n7. mixolydian\n8. phrygian\n9. lydian\n10. locrian\n11. gypsy\n12. whole tone"
 								}
 
@@ -894,8 +885,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 29.5, 292.0, 30.0, 30.0 ],
-									"style" : ""
+									"patching_rect" : [ 29.5, 292.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -908,9 +898,8 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 87.0, 38.0, 30.0, 30.0 ],
-									"style" : ""
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 87.0, 38.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -924,7 +913,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 29.5, 179.5, 61.0, 22.0 ],
-									"style" : "",
 									"text" : "nth $2 $1"
 								}
 
@@ -939,8 +927,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 87.0, 116.0, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 87.0, 116.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -954,7 +941,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 29.5, 149.5, 48.0, 22.0 ],
-									"style" : "",
 									"text" : "pack i i"
 								}
 
@@ -969,8 +955,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 60.5, 255.5, 50.0, 22.0 ],
-									"style" : ""
+									"patching_rect" : [ 60.5, 255.5, 50.0, 22.0 ]
 								}
 
 							}
@@ -1049,11 +1034,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p scale_coll"
 				}
 
@@ -1068,7 +1051,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 401.0, 243.0, 208.0, 35.0 ],
-					"style" : "",
 					"text" : "j.model @description \"database with 12 defined scale note degrees\""
 				}
 
@@ -1083,6 +1065,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"order" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -1090,7 +1088,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
