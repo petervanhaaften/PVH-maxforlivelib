@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 197.0, 398.0, 640.0, 480.0 ],
+		"rect" : [ 851.0, 420.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 25.0, 15.0, 30.0, 30.0 ]
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 91.0, 101.0, 22.0 ],
+					"patching_rect" : [ 25.0, 91.0, 113.0, 22.0 ],
 					"text" : "r #1-degreeval"
 				}
 
@@ -107,7 +107,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 149.0, 91.0, 22.0 ],
+					"patching_rect" : [ 89.0, 147.0, 103.0, 22.0 ],
 					"text" : "r #1-scaleval"
 				}
 
@@ -135,7 +135,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.0, 295.0, 104.0, 21.0 ],
+					"patching_rect" : [ 98.0, 295.0, 115.0, 21.0 ],
 					"text" : "s #1-pitchdegree"
 				}
 
@@ -205,7 +205,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 184.0, 150.0, 20.0 ],
+					"patching_rect" : [ 182.5, 186.0, 150.0, 20.0 ],
 					"text" : "scale num 1-12"
 				}
 
@@ -220,7 +220,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 100.0, 184.0, 50.0, 22.0 ]
+					"patching_rect" : [ 130.5, 186.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -242,7 +242,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1119.0, 480.0, 640.0, 480.0 ],
+						"rect" : [ 1040.0, 480.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -270,7 +270,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
@@ -795,7 +794,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 29.5, 38.0, 30.0, 30.0 ]
 								}
 
