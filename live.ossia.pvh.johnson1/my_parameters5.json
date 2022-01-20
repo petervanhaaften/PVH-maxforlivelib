@@ -2,57 +2,6 @@
 	"pattrstorage" : 	{
 		"name" : "my_parameters[1]",
 		"slots" : 		{
-			"1" : 			{
-				"id" : 1,
-				"name" : "wew",
-				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [ "1001" ],
-					"live.pvh.johnson1.view::textedit" : [ "222" ],
-					"live.pvh.johnson1.view::textedit[1]" : [ "333" ],
-					"live.pvh.johnson1.view::textedit[2]" : [ "11" ],
-					"live.pvh.johnson1.view::textedit[3]" : [ "00" ],
-					"live.pvh.johnson1.view::textedit[4]" : [ "00" ],
-					"live.pvh.johnson1.view::textedit[5]" : [ "11" ],
-					"live.pvh.johnson1.view::textedit[6]" : [ "00" ],
-					"live.pvh.johnson1.view::textedit[7]" : [ "11" ],
-					"live.pvh.johnson1.view[1]::origin[1]" : [ "1001" ],
-					"live.pvh.johnson1.view[1]::textedit" : [ "111" ],
-					"live.pvh.johnson1.view[1]::textedit[1]" : [ "000" ],
-					"live.pvh.johnson1.view[1]::textedit[2]" : [ "11" ],
-					"live.pvh.johnson1.view[1]::textedit[3]" : [ "00" ],
-					"live.pvh.johnson1.view[1]::textedit[4]" : [ "00" ],
-					"live.pvh.johnson1.view[1]::textedit[5]" : [ "11" ],
-					"live.pvh.johnson1.view[1]::textedit[6]" : [ "00" ],
-					"live.pvh.johnson1.view[1]::textedit[7]" : [ "11" ]
-				}
-
-			}
-,
-			"2" : 			{
-				"id" : 2,
-				"name" : "ewew",
-				"data" : 				{
-					"live.pvh.johnson1.view::origin[1]" : [ "222" ],
-					"live.pvh.johnson1.view::textedit" : [ "333" ],
-					"live.pvh.johnson1.view::textedit[1]" : [ "444" ],
-					"live.pvh.johnson1.view::textedit[2]" : [ "555" ],
-					"live.pvh.johnson1.view::textedit[3]" : [ "666" ],
-					"live.pvh.johnson1.view::textedit[4]" : [ "00" ],
-					"live.pvh.johnson1.view::textedit[5]" : [ "11" ],
-					"live.pvh.johnson1.view::textedit[6]" : [ "00" ],
-					"live.pvh.johnson1.view::textedit[7]" : [ "11" ],
-					"live.pvh.johnson1.view[1]::origin[1]" : [ "1001" ],
-					"live.pvh.johnson1.view[1]::textedit" : [ "111" ],
-					"live.pvh.johnson1.view[1]::textedit[1]" : [ "000" ],
-					"live.pvh.johnson1.view[1]::textedit[2]" : [ "11" ],
-					"live.pvh.johnson1.view[1]::textedit[3]" : [ "00" ],
-					"live.pvh.johnson1.view[1]::textedit[4]" : [ "00" ],
-					"live.pvh.johnson1.view[1]::textedit[5]" : [ "11" ],
-					"live.pvh.johnson1.view[1]::textedit[6]" : [ "00" ],
-					"live.pvh.johnson1.view[1]::textedit[7]" : [ "11" ]
-				}
-
-			}
 
 		}
 
