@@ -2345,7 +2345,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 266.0, 325.0, 1061.0, 721.0 ],
+						"rect" : [ 286.0, 155.0, 1061.0, 721.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2373,8 +2373,33 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
+									"id" : "obj-91",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 585.0, 74.0, 104.0, 22.0 ],
+									"text" : "r --metro-quantize"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
+									"id" : "obj-90",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 330.0, 74.0, 97.0, 22.0 ],
+									"text" : "r --metro-interval"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-75",
 									"maxclass" : "toggle",
@@ -2396,18 +2421,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 92.0, 310.0, 50.0, 35.0 ],
 									"text" : "level -120."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-49",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 452.0, 104.0, 70.0, 22.0 ],
-									"text" : "loadmess 3"
 								}
 
 							}
@@ -2834,20 +2847,6 @@
 							}
 , 							{
 								"box" : 								{
-									"color" : [ 0.12549, 0.796078, 0.894118, 1.0 ],
-									"id" : "obj-76",
-									"linecount" : 5,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 585.0, 15.0, 214.0, 76.0 ],
-									"text" : "ossia.parameter synthesis/metro/quantize @type int @range 0 20 @clip both @mode SET @default 7 @description \"Time quantization for internal metro.\""
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"allowdrag" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
@@ -2899,20 +2898,6 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 330.0, 112.0, 55.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.12549, 0.796078, 0.894118, 1.0 ],
-									"id" : "obj-18",
-									"linecount" : 5,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 330.0, 15.0, 214.0, 76.0 ],
-									"text" : "ossia.parameter synthesis/metro/interval @type int @range 0 20 @clip both @mode SET @default 7 @description \"Time interval for internal metro.\""
 								}
 
 							}
@@ -4918,22 +4903,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-72", 0 ],
-									"order" : 0,
-									"source" : [ "obj-49", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"order" : 1,
-									"source" : [ "obj-49", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-60", 1 ],
 									"order" : 0,
 									"source" : [ "obj-5", 0 ]
@@ -5185,6 +5154,20 @@
 									"destination" : [ "obj-66", 0 ],
 									"midpoints" : [ 357.5, 137.0, 339.5, 137.0 ],
 									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-90", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-72", 0 ],
+									"source" : [ "obj-91", 0 ]
 								}
 
 							}
