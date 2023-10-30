@@ -99,6 +99,7 @@
 							"parameter_mmax" : 99999.0,
 							"parameter_mmin" : -99999.0,
 							"parameter_shortname" : "live.numbox",
+							"parameter_speedlim" : 20.0,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}

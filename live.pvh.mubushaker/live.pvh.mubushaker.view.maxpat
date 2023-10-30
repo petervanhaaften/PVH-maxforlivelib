@@ -350,7 +350,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "reverse",
+							"parameter_longname" : "live.toggle[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "reverse",
 							"parameter_type" : 2
@@ -450,7 +450,7 @@
 					"presentation_rect" : [ 53.166664570569992, 58.5, 36.333333194255829, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "minInterval",
+							"parameter_longname" : "maxSize[1]",
 							"parameter_mmax" : 5000.0,
 							"parameter_shortname" : "minInterval",
 							"parameter_type" : 0,
@@ -542,7 +542,7 @@
 							"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128n" ],
 							"parameter_initial" : [ 7.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "select-interval",
+							"parameter_longname" : "live.menu[3]",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "select-interval",
 							"parameter_type" : 2
@@ -568,9 +568,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "slider-clk-toggle",
+							"parameter_longname" : "live.toggle",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "slider-clk-toggle",
+							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
 
@@ -1743,16 +1743,16 @@
 					"presentation_rect" : [ 226.500004261732101, 118.5, 36.333333194255829, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "filtQ!!VarABS",
+							"parameter_longname" : "filtQVarABS",
 							"parameter_mmax" : 12.0,
-							"parameter_shortname" : "filtQ!!VarABS",
+							"parameter_shortname" : "filtQVarABS",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "filtQ!!VarABS"
+					"varname" : "filtQVarABS"
 				}
 
 			}
