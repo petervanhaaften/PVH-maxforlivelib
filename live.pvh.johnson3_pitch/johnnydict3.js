@@ -1,11 +1,9 @@
 // max-> set up inlets/outlets/assist strings
 inlets = 1;
-outlets = 4;
+outlets = 2;
 setinletassist(0,"inlet for all");
-setoutletassist(0,"???");
-setoutletassist(1,"bang out, processFirst done");
-setoutletassist(2,"bang out, processSecond done");
-setoutletassist(3,"utility messages out");
+setoutletassist(0,"bang out, processdone");
+setoutletassist(1,"utility messages out");
 // origin sequence, each character in origin
 // will be replaced by a corresponding sequence
 var origin		    = "";
@@ -103,8 +101,8 @@ function process(){
     // drop origin into dict as split list
     //originNew = originNew.split("")
     basic_getting_and_setting()
-    outlet(1, "bang");
-    outlet(3, "originNew_" + originNew);
+    outlet(0, "bang");
+    outlet(1, "originNew_" + originNew);
 }
 
 function bang(){
@@ -118,7 +116,7 @@ function reset(){
         reset all to nothing
 	*/
 	basic_getting_and_setting()
-    outlet(3, "internal reset")
+    outlet(1, "internal reset")
 }
 
 function clear(){
@@ -139,62 +137,62 @@ function clear(){
     var originNew       = ""
     var target          = ""
 	reset()
-    outlet(3, "internal reset")
+    outlet(1, "internal reset")
 }
 
 // functions for changing seq0-seq9 & origin
 function seq0(s0In){
     seq0Val = s0In;
     //print text of saved sequence
-    outlet(3, "seq0sav:_" + seq0Val);
+    outlet(1, "seq0sav:_" + seq0Val);
     itr = -1;
 }
 
 function seq1(s1In){
     seq1Val = s1In;
-    outlet(3, "seq1sav:_" + seq1Val);
+    outlet(1, "seq1sav:_" + seq1Val);
     itr = -1;
 }
 
 function seq2(s2In){
     seq2Val = s2In;
-    outlet(3, "seq2sav:_" + seq2Val);
+    outlet(1, "seq2sav:_" + seq2Val);
     itr = -1;
 }
 
 function seq3(s3In){
     seq3Val = s3In;
-    outlet(3, "seq3sav:_" + seq3Val);
+    outlet(1, "seq3sav:_" + seq3Val);
     itr = -1;
 }
 
 function seq4(s4In){
     seq4Val = s4In;
-    outlet(3, "seq4sav:_" + seq4Val);
+    outlet(1, "seq4sav:_" + seq4Val);
     itr = -1;
 }
 
 function seq5(s5In){
     seq5Val = s5In;
-    outlet(3, "seq5sav:_" + seq5Val);
+    outlet(1, "seq5sav:_" + seq5Val);
     itr = -1;
 }
 
 function seq6(s6In){
     seq6Val = s6In;
-    outlet(3, "seq6sav:_" + seq6Val);
+    outlet(1, "seq6sav:_" + seq6Val);
     itr = -1;
 }
 
 function seq7(s7In){
     seq7Val = s7In;
-    outlet(3, "seq7sav:_" + seq7Val);
+    outlet(1, "seq7sav:_" + seq7Val);
     itr = -1;
 }
 
 function seqOrigin(originIn){
     origin = originIn;
     originNew = originIn;
-    outlet(3, "seqOriginsav:_" + origin);
+    outlet(1, "seqOriginsav:_" + origin);
     itr = -1;
 }
