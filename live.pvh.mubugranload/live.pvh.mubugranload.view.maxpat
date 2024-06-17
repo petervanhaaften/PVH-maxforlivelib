@@ -64,7 +64,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 834.0, 794.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.166664570569992, 46.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 57.0, 26.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_selectioncolor"
@@ -220,7 +220,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 3000.0,
+					"cursor_position" : 0.0,
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
@@ -264,7 +264,7 @@
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 0,
-					"region_bounds" : [ 2771.4202725877185, 2984.235976933421625 ],
+					"region_bounds" : [ -10.0, 10.0 ],
 					"region_color" : [ 1.0, 0.647058844566345, 0.0, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 0,
@@ -899,21 +899,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-53",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 36.0, 37.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 268.833335429430008, 127.5, 36.0, 18.0 ],
-					"text" : "in"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "newobj",
@@ -948,19 +933,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 456.0, 14.0, 153.0, 22.0 ],
 					"text" : "r~ #1-inmeter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 456.0, 36.0, 80.0, 13.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 289.666668623685837, 129.5, 66.5, 12.0 ]
 				}
 
 			}
@@ -1129,57 +1101,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 224.0, 180.0, 153.0, 22.0 ],
 					"text" : "s #1-filtertype"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 45.0, 142.0, 22.0 ],
-					"text" : "s #1-record"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
-					"activebgoncolor" : [ 0.898039215686275, 0.333333333333333, 0.266666666666667, 1.0 ],
-					"fontsize" : 10.0,
-					"id" : "obj-101",
-					"maxclass" : "live.text",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 15.0, 15.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 29.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : "themecolor.live_macro_assignment"
-						}
-,
-						"activebgoncolor" : 						{
-							"expression" : "themecolor.live_active_automation"
-						}
-,
-						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "record",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "record",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : "record",
-					"texton" : "record",
-					"varname" : "record"
 				}
 
 			}
@@ -1836,13 +1757,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-101", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-107", 0 ]
 				}
@@ -1896,13 +1810,6 @@
 					"destination" : [ "obj-66", 0 ],
 					"order" : 0,
 					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-43", 0 ]
 				}
 
 			}
