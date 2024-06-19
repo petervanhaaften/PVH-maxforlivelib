@@ -40,6 +40,60 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-60",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 887.0, 653.0, 150.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 362.000002026557922, 18.0, 392.999997973442078, 47.0 ],
+					"text" : "Macintosh HD:/Users/andreayoung/src/teapotproject/new_rec_june18_2024/piano2_realpiano.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 664.5, 730.0, 153.0, 22.0 ],
+					"text" : "s #1-filename"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"decodemode" : 1,
+					"id" : "obj-57",
+					"legend" : "",
+					"maxclass" : "live.drop",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 664.5, 647.0, 140.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 362.000002026557922, 0.0, 392.999997973442078, 162.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "live.drop",
+							"parameter_shortname" : "live.drop",
+							"parameter_type" : 4
+						}
+
+					}
+,
+					"varname" : "live.drop"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "newobj",
@@ -220,12 +274,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 3000.0,
+					"cursor_position" : 9000.0,
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 1.0 ],
+					"domain_bounds" : [ 0.0, 11544.79166666666606 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -264,7 +318,7 @@
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 0,
-					"region_bounds" : [ 2771.4202725877185, 2984.235976933421625 ],
+					"region_bounds" : [ 8999.5, 9000.5 ],
 					"region_color" : [ 1.0, 0.647058844566345, 0.0, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 0,
@@ -1818,6 +1872,18 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 887.0, 623.0, 50.0, 22.0 ],
+					"text" : "set $1"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1964,6 +2030,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"order" : 1,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"order" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -2001,6 +2083,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-68", 0 ]
 				}
 
 			}
