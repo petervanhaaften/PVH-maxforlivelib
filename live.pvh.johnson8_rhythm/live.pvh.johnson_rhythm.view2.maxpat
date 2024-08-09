@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 274.0, 100.0, 796.0, 848.0 ],
+		"rect" : [ 280.0, 146.0, 796.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -240,6 +240,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "---seq_one" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -254,7 +255,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 285.0, 240.0, 30.0 ],
+					"patching_rect" : [ 271.0, 291.0, 240.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.0, 66.0, 240.0, 30.0 ],
 					"viewvisibility" : 1
@@ -263,6 +264,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "---seq_zero" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -286,6 +288,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "---origin" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -492,24 +495,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 7.978723347187042, 352.0, 67.0, 23.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -883,6 +872,120 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-183" : [ "live.numbox[147]", "live.numbox", 0 ],
+			"obj-74::obj-1" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-74::obj-10" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-74::obj-11" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-74::obj-12" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-74::obj-13" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-74::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-74::obj-8" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-74::obj-9" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-77::obj-1" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-77::obj-10" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-77::obj-11" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-77::obj-12" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-77::obj-13" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-77::obj-7" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-77::obj-8" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-77::obj-9" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-78::obj-1" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-78::obj-10" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-78::obj-11" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-78::obj-12" : [ "live.toggle[23]", "live.toggle", 0 ],
+			"obj-78::obj-13" : [ "live.toggle[20]", "live.toggle", 0 ],
+			"obj-78::obj-7" : [ "live.toggle[21]", "live.toggle", 0 ],
+			"obj-78::obj-8" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-78::obj-9" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-77::obj-1" : 				{
+					"parameter_longname" : "live.toggle[15]"
+				}
+,
+				"obj-77::obj-10" : 				{
+					"parameter_longname" : "live.toggle[8]"
+				}
+,
+				"obj-77::obj-11" : 				{
+					"parameter_longname" : "live.toggle[12]"
+				}
+,
+				"obj-77::obj-12" : 				{
+					"parameter_longname" : "live.toggle[9]"
+				}
+,
+				"obj-77::obj-13" : 				{
+					"parameter_longname" : "live.toggle[13]"
+				}
+,
+				"obj-77::obj-7" : 				{
+					"parameter_longname" : "live.toggle[11]"
+				}
+,
+				"obj-77::obj-8" : 				{
+					"parameter_longname" : "live.toggle[10]"
+				}
+,
+				"obj-77::obj-9" : 				{
+					"parameter_longname" : "live.toggle[14]"
+				}
+,
+				"obj-78::obj-1" : 				{
+					"parameter_longname" : "live.toggle[19]"
+				}
+,
+				"obj-78::obj-10" : 				{
+					"parameter_longname" : "live.toggle[17]"
+				}
+,
+				"obj-78::obj-11" : 				{
+					"parameter_longname" : "live.toggle[22]"
+				}
+,
+				"obj-78::obj-12" : 				{
+					"parameter_longname" : "live.toggle[23]"
+				}
+,
+				"obj-78::obj-13" : 				{
+					"parameter_longname" : "live.toggle[20]"
+				}
+,
+				"obj-78::obj-7" : 				{
+					"parameter_longname" : "live.toggle[21]"
+				}
+,
+				"obj-78::obj-8" : 				{
+					"parameter_longname" : "live.toggle[18]"
+				}
+,
+				"obj-78::obj-9" : 				{
+					"parameter_longname" : "live.toggle[16]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "live.pvh.rhythm_cell.maxpat",
+				"bootpath" : "~/src/PVH-maxforlivelib/live.pvh.johnson8_rhythm",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "11patcher",
 				"default" : 				{
@@ -3597,14 +3700,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }
